@@ -49,8 +49,8 @@ variable "address_prefixes" {
   default     = []
 }
 
-variable "next_hop_type" {
+variable "next_hop_ip_address" {
   type        = string
-  description = "The next hop type for the static VNet route."
+  description = "The next hop IP address for the static VNet route."
   default     = null
 }

@@ -12,9 +12,9 @@ resource "azurerm_virtual_hub_connection" "this" {
     }
 
     static_vnet_route {
-      name             = var.static_vnet_route_name
-      address_prefixes = var.address_prefixes
-      next_hop_type    = var.next_hop_type
+      name                = var.static_vnet_route_name
+      address_prefixes    = var.address_prefixes
+      next_hop_ip_address = var.next_hop_ip_address
     }
   }
 }
