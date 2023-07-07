@@ -45,7 +45,7 @@ No modules.
 | associated\_route\_table\_id | The ID of the associated route table. | `string` | no |
 | internet\_security\_enabled | Whether or not internet security is enabled. | `bool` | no |
 | labels | The labels for the propagated route table. | `list(string)` | no |
-| next\_hop\_type | The next hop type for the static VNet route. | `string` | no |
+| next\_hop\_ip\_address | The next hop IP address for the static VNet route. | `string` | no |
 | route\_table\_ids | The IDs of the propagated route tables. | `list(string)` | no |
 | static\_vnet\_route\_name | The name of the static VNet route. | `string` | no |
 
