@@ -8,11 +8,12 @@ content: |-
 
   # Usage - Module
 
-  ## Network Watcher Flow Log
+  ##Connection for a Virtual Hub
+  
   ```hcl
-  {{ include "examples/network-watcher-flow-log-example/main.tf" }}
+  {{ include "examples/virtual-hub-connection-example/main.tf" }}
   ```
-
+  
   {{ .Providers }}
 
   {{ .Modules }}
